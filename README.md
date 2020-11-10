@@ -28,10 +28,10 @@ The file structure of the project folder is as follows:
 
 # System and environment
 
-Linux OS : 	Ubuntu 18.04.2 LTS
-Python 3.6.5
-npm 3.5.2
-node v8.10.0
+- Linux OS : 	Ubuntu 18.04.2 LTS
+- Python 3.6.5
+- npm 3.5.2
+- node v8.10.0
 
 # To run the project
 - Download and extract the project folder
@@ -39,6 +39,12 @@ node v8.10.0
 ```bash
 ./my-electron-app-linux-x64/my-electron-app 
 ```
+## Use case :
+
+- Enter two numbers in the input boxes and click on `add` button
+- Result is displayed in the output box
+
+# To test the project
 - To execute test, change the electron path on `line 15` of `test/spec.js` and run
 ```bash
 ./node_modules/mocha/bin/mocha test/spec.js 
