@@ -145,3 +145,5 @@ Used the following command to run the command:
 ```bash
 ./node_modules/mocha/bin/mocha test/spec.js 
 ```
+
+The last test case could not be run due to known bug. Please find the details [here](https://github.com/electron-userland/spectron/issues/113)
